@@ -7,9 +7,7 @@ import Creator from '../Creator/Creator';
 import Icon from '../Icon/Icon';
 
 class Column extends React.Component {
-  //state = {
-  // cards: this.props.cards || [],
-  //};
+
   static propTypes = {
     title: PropTypes.node.isRequired,
     cards: PropTypes.array,
@@ -20,22 +18,6 @@ class Column extends React.Component {
   static defaultProps = {
     icon: settings.defaultColumnIcon,
   };
-
-  /*
-  addCard(title) {
-    this.setState(state => (
-      {
-        cards: [
-          ...state.cards,
-          {
-            key: state.cards.length ? state.cards[state.cards.length - 1].key + 1 : 0,
-            title,
-          },
-        ],
-      }
-    ));
-  }
- */
 
   render() {
     const { title, icon, cards, addCard } = this.props;
@@ -48,12 +30,6 @@ class Column extends React.Component {
             <Card key={cardData.id} {...cardData} />
           ))}
         </div>
-
-        {/* <div className={styles.cards}>
-          {this.state.cards.map(({ key, ...cardsProps }) => (
-            <Card key={key} {...cardsProps} />
-          ))}
-        </div>*/}
         <div className={styles.creator}>
           <Creator text={settings.cardCreatorText} action={addCard} />
         </div> 
