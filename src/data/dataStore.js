@@ -100,6 +100,27 @@ const lists = [
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
+
+  {
+    id: 'list-2',
+    title: 'Holiday check-list',
+    description: 'Check before flight!',
+    image: 'https://i.postimg.cc/sD6yjgkH/IMG-20210710-202258.jpg',
+  },
+
+  {
+    id: 'list-3',
+    title: 'Do not click here!</sup>',
+    description: 'Not interesting things I don not want to check out!',
+    image: 'https://i.postimg.cc/hjPptKWM/1637831543436.jpg',
+  },
+
+  {
+    id: 'list-4',
+    title: 'Lili',
+    description: '..........................................',
+    image: 'https://i.postimg.cc/k4KKCZDw/IMG-20210705-201457.jpg',
+  },
 ];
 
 const columns = [

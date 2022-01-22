@@ -4,6 +4,7 @@ import Container from '../Container/Container';
 import Icon from '../Icon/Icon';
 import styles from './Header.scss';
 import { settings, faqSubPage, infoSubPage, mainPage } from '../../data/dataStore';
+import Search from '../Search/Search';
 
 class Header extends React.Component {
 
@@ -22,6 +23,7 @@ class Header extends React.Component {
               <NavLink exact to='/faq' activeClassName='active'>{faqSubPage.navText}</NavLink>
             </nav>
           </div>
+          <Search/>
         </Container>
       </header>
     );
