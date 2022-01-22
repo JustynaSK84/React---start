@@ -19,5 +19,4 @@ const mapDispatchToProps = (dispatch, props) => ({
   })),
 });
 
-// export const getColumnsForList = ({columns}, listId) => columns.filter(column => column.listId == listId);
 export default connect (mapStateToProps, mapDispatchToProps)(List);
