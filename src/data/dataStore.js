@@ -103,9 +103,9 @@ const lists = [
 
   {
     id: 'list-2',
-    title: 'Holiday check-list',
+    title: 'Shopping',
     description: 'Check before flight!',
-    image: 'https://i.postimg.cc/sD6yjgkH/IMG-20210710-202258.jpg',
+    image: 'https://images.pexels.com/photos/1226398/pexels-photo-1226398.jpeg',
   },
 
   {
@@ -117,9 +117,9 @@ const lists = [
 
   {
     id: 'list-4',
-    title: 'Lili',
+    title: 'Pets',
     description: '..........................................',
-    image: 'https://i.postimg.cc/k4KKCZDw/IMG-20210705-201457.jpg',
+    image: 'https://images.pexels.com/photos/1562983/pexels-photo-1562983.jpeg',
   },
 ];
 
